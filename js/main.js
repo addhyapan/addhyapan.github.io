@@ -41,7 +41,7 @@ navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>']
   nav:true,
 dots:false,
 autoplayHoverPause: true,
-autoplaySpeed: 800,
+autoplaySpeed: 300,
   responsive:{
       0:{
           items:1,
@@ -96,8 +96,8 @@ autoplaySpeed: 800,
 
   // counter 
   $('.counter').counterUp({
-    delay: 10,
-    time: 10000
+    delay: 5,
+    time: 3000
   });
 
 /* magnificPopup img view */
